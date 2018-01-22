@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Firebase</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      
+      <table>
+      	<thead>
+      		<th>Movie Title</th>
+      		<th>Release Date</th>
+      		<th></th>
+      	</thead>
+      	<tbody>
+      		<!-- <tr>
+      			<td>Jumanji</td>
+      			<td>2018</td>
+      			<td>
+      				<button>Delete</button>
+      			</td>
+      		</tr> -->
+      	</tbody>
+      </table>
+
+      <form>
+      	<input type="text" id="title" placeholder="Title">
+      	<input type="text" id="date" placeholder="Release Date">
+      	<button id="save">Save Movie</button>
+      	<button id="cancel">Cancel</button>
+      </form>
+
+			
+			<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+			<script>
+			  // Initialize Firebase
+			  var config = {
+			    apiKey: "AIzaSyBUYYwMBs3g6SWFyQ5pKjx-ANBUUY3gSc4",
+			    authDomain: "fir-example-1e3f1.firebaseapp.com",
+			    databaseURL: "https://fir-example-1e3f1.firebaseio.com",
+			    projectId: "fir-example-1e3f1",
+			    storageBucket: "fir-example-1e3f1.appspot.com",
+			    messagingSenderId: "1027329044387"
+			  };
+			  firebase.initializeApp(config);
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="js/app.js"></script>
+    </body>
+</html>

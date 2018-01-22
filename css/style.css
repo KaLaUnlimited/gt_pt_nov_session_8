@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	padding-top: 30px;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table thead {
+	border-bottom: 2px solid #bbb;
+}
+
+/*table tbody tr {
+	border-bottom: 1px solid #ccc;
+}*/
+
+table th, table td {
+	border-bottom: 1px solid #aaa;
+	padding: 7px 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	margin: 35px auto 0;
+}
+
+form input, form button {
+	padding: 7px;
+	margin-bottom: 5px;
+}
+
+form button {
+	background: #40d328;
+	color: #fff;
+	cursor: pointer;
+}
+
+form button#cancel {
+	background: #555;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
